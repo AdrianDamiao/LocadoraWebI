@@ -5,21 +5,28 @@
     <meta charset="UTF-8" />
     <title>Tela de Login do Sistema</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 </head>
 
 <body>
-    <form>
-        <label>
-            Usuário:
-            <input type="text" id="usuario" name="nome" />
-        </label>
-        <label>
-            Senha:
-            <input type="password" id="senha" />
-        </label>
-        <input type="submit" value="Entrar" />
-        <a href="pages/paginaPrincipal.html">Entrar</a><a href="pages/cadastroUsuario.html">Cadastro</a>
-    </form>
+    <section class="card alinhamento">
+        <form class="form">
+            <h1>Login</h1>
+            <label>
+                Usuário
+                <input type="text" id="usuario" name="nome" />
+            </label>
+            <label>
+                Senha
+                <input type="password" id="senha" />
+            </label>
+            <input type="submit" value="Entrar" />
+        </form>
+
+        <div class="alinhado-centro">
+            <a href="pages/paginaPrincipal.html">Entrar</a><a href="pages/cadastroUsuario.html">Cadastro</a>
+        </div>
+    </section>
 </body>
 
 </html>
