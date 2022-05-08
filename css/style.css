@@ -318,7 +318,7 @@ h1 {
     margin-bottom: 1.125rem;
 }
 .filme img:hover {
-    background-color: blue;
+    opacity: 0.6;
 }
 
 /* Perfil */
@@ -465,4 +465,9 @@ th, td {
     border: 1px solid var(--grey-bg);
     padding: 1.1rem;
     text-align: center;
+}
+
+iframe {
+    width: 62.5rem;
+    height: 37.5rem;
 }
