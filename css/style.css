@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 :root {
     --white: #fff;
     --black: #121212;
     --grey-bg: #27272a;
+    --grey-2nd: #1c1c1f;
     --grey: #c9c9c9;
     --primary: #8430d5;
     --primary-hover: #6d26af;
@@ -202,9 +205,9 @@ h1 {
 .navbar {
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: space-between;
     height: 2rem;
-    margin: 1.5rem 0 1.5rem 12.5rem;
+    margin: 1.5rem 12.5rem;
 }
 
 .navbar ul {
@@ -239,11 +242,10 @@ h1 {
 }
 
 .logo {
-    margin-right:4rem;
     float:left; 
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
 }
 
 .logo a {
@@ -422,10 +424,10 @@ select {
     margin-top: 8px;
     margin-bottom: 18px;
     display: block;
-    border: 1px solid #121212;
+    border: 1px solid var(--black);
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: #1c1c1f;
+    background-color: var(--grey-2nd);
     color: var(--white);
 }
 
@@ -441,8 +443,9 @@ select:focus {
 
 input[type="submit"] {
     width: 22%;
+    font-weight: 500;
     background-color: var(--primary);
-    color: white;
+    color: var(--white);
     padding: 0.875rem 1.125rem;
     margin: 8px 0;
     border: none;
